@@ -201,6 +201,7 @@ ul {
 }
 li {
   padding: 8px;
+  color: silver;
 }
 .date {
   margin-left: 15px;
@@ -235,6 +236,12 @@ li {
   display: flex;
 }
 /* Styling for Right Panel */
+.right-content {
+  width: 30%;
+  height: 100%;
+  border-left: 3px solid white;
+  padding-left: 5%;
+}
 .skills {
   margin-bottom: 10%;
 }
@@ -247,9 +254,7 @@ i {
   margin-right: 10px;
   color: gold;
 }
-.right-content {
-  width: 30%;
-  height: 100%;
-  border-left: 3px solid white;
-  padding-left: 5%;
+.lambda,
+.um {
+  display: flex;
 }
