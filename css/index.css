@@ -199,7 +199,7 @@ ul {
   margin-bottom: 3%;
 }
 li {
-  padding: 5px;
+  padding: 8px;
 }
 .date {
   margin-left: 15px;
@@ -210,11 +210,11 @@ li {
   display: flex;
   flex-direction: column;
 }
-.healthscripts,
-.mcps {
+.position {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin-bottom: 1%;
 }
 #annoyingdate {
   margin-left: 15px;
@@ -222,5 +222,11 @@ li {
   width: 10%;
 }
 #csr {
-  margin-left: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 83%;
+}
+.mcps {
+  margin-left: -2%;
 }
