@@ -67,7 +67,7 @@ table {
 .workspace(){
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
+	width: 60%;
 	margin-bottom: 1%;
 }
 
@@ -85,6 +85,7 @@ html, body {
 	margin: 20px;
 	
 }
+
 
 nav{
 	display: flex;
@@ -125,23 +126,27 @@ h3{
 	border-bottom: 3px solid white;
 }
 
-.main-content{
-	display: flex;
-}
+
 h2{
-	font-size: 26px;
+	font-size: 30px;
 	padding: 10px;
 	font-weight: 400;
 	margin-bottom: 20px;
-}
+	text-decoration: underline;
+	text-decoration-color: @highlight;
+	
+	}
 
 h4{
 	color: @highlight;
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 h5{
 	margin-bottom: 10px;
 }
+
+/* Styling for Experience Section */
 
 ul{
 	list-style-type: circle;
@@ -184,4 +189,31 @@ li{
 
 .mcps{
 	margin-left: -2%;
+}
+
+.main-content{
+	display:flex;
+	
+}
+
+/* Styling for Right Panel */
+.skills{
+	margin-bottom: 10%;
+}
+.skillbox{
+	display: flex;
+	padding: 10px;
+	font-size: 16px;
+}
+
+i{
+	margin-right: 10px;
+	color: @highlight;
+}
+
+.right-content{
+	width: 30%;
+	height: 100%;
+	border-left: 3px solid @main-color;
+	padding-left: 5%;
 }

@@ -177,22 +177,23 @@ h3 {
   color: silver;
   border-bottom: 3px solid white;
 }
-.main-content {
-  display: flex;
-}
 h2 {
-  font-size: 26px;
+  font-size: 30px;
   padding: 10px;
   font-weight: 400;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: gold;
 }
 h4 {
   color: gold;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 h5 {
   margin-bottom: 10px;
 }
+/* Styling for Experience Section */
 ul {
   list-style-type: circle;
   width: 80%;
@@ -213,7 +214,7 @@ li {
 .position {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 60%;
   margin-bottom: 1%;
 }
 #annoyingdate {
@@ -229,4 +230,26 @@ li {
 }
 .mcps {
   margin-left: -2%;
+}
+.main-content {
+  display: flex;
+}
+/* Styling for Right Panel */
+.skills {
+  margin-bottom: 10%;
+}
+.skillbox {
+  display: flex;
+  padding: 10px;
+  font-size: 16px;
+}
+i {
+  margin-right: 10px;
+  color: gold;
+}
+.right-content {
+  width: 30%;
+  height: 100%;
+  border-left: 3px solid white;
+  padding-left: 5%;
 }
