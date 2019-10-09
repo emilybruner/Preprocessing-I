@@ -64,6 +64,11 @@ table {
 	display: flex;
 	flex-direction: column;
 }
+.workspace(){
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
 
 
 * {
@@ -118,4 +123,60 @@ h3{
 	color: @dim;
 	border-bottom: 3px solid white;
 }
+
+.main-content{
+	display: flex;
+}
+h2{
+	font-size: 26px;
+	padding: 10px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+h4{
+	color: @highlight;
+	margin-bottom: 10px;
+}
+h5{
+	margin-bottom: 10px;
+}
+
+ul{
+	list-style-type: circle;
+	width: 80%;
+	margin-bottom: 3%;
+}
+li{
+	padding: 5px;
+}
+
+.date{
+	margin-left: 15px;
+	margin-right: 10%;
+	width: 10%;
+	
+}
+
+.experience{
+	.column();
+}
+
+.healthscripts, .mcps{
+	.workspace();
+}
+
+
+
+#annoyingdate{
+	margin-left: 15px;
+	margin-right: 4%;
+	width: 10%;
+}
+
+#csr{
+	margin-left: 14%;
+}
+
+
 
