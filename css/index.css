@@ -184,6 +184,7 @@ h2 {
   margin-bottom: 20px;
   text-decoration: underline;
   text-decoration-color: gold;
+  width: 30%;
 }
 h4 {
   color: gold;
@@ -196,7 +197,7 @@ h5 {
 /* Styling for Experience Section */
 ul {
   list-style-type: circle;
-  width: 80%;
+  width: 180% !important;
   margin-bottom: 3%;
 }
 li {
@@ -206,11 +207,13 @@ li {
 .date {
   margin-left: 15px;
   margin-right: 10%;
-  width: 10%;
+  width: 100% !important;
 }
 .experience {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  max-width: 70%;
 }
 .position {
   display: flex;
@@ -218,16 +221,20 @@ li {
   width: 60%;
   margin-bottom: 1%;
 }
+.healthscripts {
+  margin-left: 4%;
+}
 #annoyingdate {
   margin-left: 15px;
   margin-right: 4%;
   width: 10%;
+  width: 100% !important;
 }
 #csr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 83%;
+  margin-left: -30%;
 }
 .mcps {
   margin-left: -2%;
@@ -237,7 +244,7 @@ li {
 }
 /* Styling for Right Panel */
 .right-content {
-  width: 30%;
+  width: 45%;
   height: 100%;
   border-left: 3px solid white;
   padding-left: 5%;
